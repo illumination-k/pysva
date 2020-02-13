@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  analysis_env:
+    image: illumination27/pysva:latest
+
+    container_name: pysva-env
+
+    user: root
+
+    privileged: true
+
+    volumes:
+      - ".:/workspace"
+
+    command: sh -c "sleep infinity"
