@@ -1,10 +1,10 @@
 version: '3'
 
 services:
-  analysis_env:
+  pysva_env:
     image: illumination27/pysva:latest
 
-    container_name: pysva-env
+    container_name: pysva
 
     user: root
 

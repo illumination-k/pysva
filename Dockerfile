@@ -32,7 +32,9 @@ ADD ./requirements.txt /workspace
 RUN conda update -n base conda && \ 
     conda install -c bioconda -c conda-forge \
     bioconductor-sva \
-    bioconductor-edger 
+    bioconductor-edger \
+    bioconductor-zebrafishrnaseq \
+    bioconductor-bladderbatch
 
 RUN pip install -r requirements.txt
 
