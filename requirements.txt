@@ -3,6 +3,8 @@ pandas
 anndata
 scipy
 scikit-learn
+statsmodels
 matplotlib
 seaborn
 sphinx
+pytest
